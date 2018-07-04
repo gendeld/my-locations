@@ -33,8 +33,14 @@ const App = () => (
     </Helmet>
     <main>
       <Route exact path="/" render={() => <Redirect to="/locations" />} />
-      <Route exact path="/locations" component={Locations} />
-      <Route exact path="/categories" component={Categories} />
+      <Route
+        path={`${process.env.PUBLIC_URL}/locations`}
+        component={Locations}
+      />
+      <Route
+        path={`${process.env.PUBLIC_URL}/categories`}
+        component={Categories}
+      />
     </main>
     <footer className="row center">
       <NavLink to="/locations" activeClassName="active">
