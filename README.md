@@ -1,21 +1,29 @@
+# my-locations
+
 The app allows the user to maintain a list of categorized name locations.
 
-Prerequisites:
+# Prerequisites
 
-git
+- git
+- npm
+- yarn
 
-npm
+# Installation
 
-yarn
+```sh
+$ git clone https://github.com/gendeld/my-locations.git
+$ cd my-locations
+$ npm i --save
+```
 
-Installation:
+# Running
 
-git clone https://github.com/gendeld/my-locations.git
+```sh
+$ yarn start
+```
 
-cd my-locations
+# Building
 
-npm i --save
-
-Running:
-
-yarn start
+```sh
+$ yarn build
+```
