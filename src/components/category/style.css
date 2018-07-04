@@ -1,0 +1,9 @@
+.inline {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.existing-category .distance {
+  display: inline-block;
+  width: 10px;
+}

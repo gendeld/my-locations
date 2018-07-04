@@ -1,0 +1,10 @@
+.section-header {
+  width: 97%;
+  border-bottom: solid 5px #1e88e5;
+  margin-bottom: 10px;
+}
+
+.section-header > * {
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}

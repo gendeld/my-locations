@@ -1,0 +1,13 @@
+.location-inputs-container {
+  padding-right: 3vw;
+}
+
+.close {
+  box-sizing: content-box;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+}

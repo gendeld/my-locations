@@ -1,0 +1,74 @@
+input {
+  width: 200px;
+}
+
+.inline {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.location {
+  margin-top: 30px;
+  margin-right: 30px;
+  position: relative;
+  background-color: #1565c0;
+  width: 250px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.location .info {
+  background-color: rgba(21, 101, 193, 0.9);
+  position: absolute;
+  left: 0px;
+  right: 0;
+  bottom: 0px;
+  padding: 20px 15px 15px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: rgba(255, 255, 255, 0.94);
+}
+
+.location .info h1,
+.location .info h2,
+.location .info > div {
+  margin: 0;
+}
+
+.location .info h1 {
+  line-height: 1em;
+}
+
+.location .info h2 {
+  font-weight: 300;
+}
+
+.location .category-label {
+  margin-top: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  padding: 3px 15px;
+  border-radius: 14px;
+  background-color: rgba(255, 255, 255, 0.94);
+  color: #1565c0;
+}
+
+.location .icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.location .icon-distance {
+  width: 10px;
+}
+
+.narrow {
+  font-weight: 300;
+  font-size: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
